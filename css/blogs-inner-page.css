@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Purple+Purse&display=swap');
+
+.meta-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meta-info i {
+    margin-right: 5px;
+}
+
+.first-h {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39.6px;
+    letter-spacing: 0%;    
+}
+
+.description {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29.34px;
+    letter-spacing: 0%;  
+}
+
+.sec-h{
+font-family: Poppins;
+font-weight: 600;
+font-size: 19px;
+line-height: 24px;
+letter-spacing: 0%;    
+}
+
+.fourth-h{
+font-family: Poppins;
+font-weight: 600;
+font-size: 17px;
+line-height: 21.6px;
+letter-spacing: 0%;
+}
+
+.min-p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19.2px;
+    letter-spacing: 0%;   
+}
+
+.min-color{
+       color: #575757; 
+}
+
+.main-blog-pic{
+max-width: 560px;
+height: 100%;
+border-radius: 8px;
+}
+
+.side-blog-pic{
+max-width: 270px;
+height: 100%;
+}
+
+.advertisement-board{
+width: 560px;
+height: 300px;
+background: #D9D9D9;
+}
