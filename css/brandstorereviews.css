@@ -179,12 +179,118 @@ padding: 15px 10px;
 /* /////////////////////////////////// */
 
 .all-rating{
-border-radius: 4px;
-padding: 7px 12px ;
+    border-radius: 4px;
+    padding: 7px 12px ;
     border: 0.5px solid #BFBFBF
 }
 
 .all-rating-img{
-width: 24;
-height: 24;
+    width: 24;
+    height: 24;
+}
+
+/* /////////////////////////////////// */
+
+@media (max-width: 768px) {
+    /* Center Align Content */
+    .feedback-content {
+      text-align: center;
+    }
+  
+    /* Adjust Stars for Better Spacing */
+    .stars-code {
+      font-size: 1.2rem; /* Make stars slightly larger */
+    }
+  
+    /* Improve Spacing for Review Box */
+    .review-textarea {
+      width: 100%;
+      font-size: 1rem;
+      min-height: 120px; /* Ensures comfortable typing space */
+    }
+  
+    /* Stack Elements Vertically */
+    .feed-back-review {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .feed-back-review p {
+      margin-top: 10px;
+    }
+  
+    /* Increase Card Padding to Keep Button Inside */
+    .feedback-card {
+      width: 95%;
+      padding: 20px;
+      padding-bottom: 60px; /* Extra space for the button */
+      position: relative; /* Ensures button stays inside */
+    }
+  
+    /* Ensure Button Stays in the Card */
+    .submit-button {
+      width: 80%; /* Full width on mobile */
+      font-size: 1rem;
+      padding: 12px;
+      position: absolute;
+      bottom: 15px; /* Stick button to bottom but inside */
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
+
+/* /////////////////////////////////// */
+
+@media (max-width: 576px) {
+    .headline {
+        margin-top: 30px;
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .container.d-flex {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+    }
+
+    .nike-vector {
+        display: none; /* Hides vector on mobile */
+    }
+
+    .nike-logo {
+        width: 80px; /* Makes Nike logo smaller */
+        height: auto;
+        position: absolute;
+        top: -30px; /* Moves logo to the top of the label */
+        left: 50%;
+        transform: translateX(-50%); /* Centers logo horizontally */
+    }
+
+    .headline-content {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 40px; /* Adds space for the Nike logo */
+    }
+
+    .first-h {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .first-p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .prostitute {
+        display: none;
+    }
 }
