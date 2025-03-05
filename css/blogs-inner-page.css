@@ -63,6 +63,7 @@ border-radius: 8px;
 
 .side-blog-pic{
 max-width: 270px;
+/* max-width: auto; */
 height: 100%;
 }
 
