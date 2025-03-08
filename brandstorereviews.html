@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="./css/brandstorereviews.css">
+  <link rel="stylesheet" href="./css/modal.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
@@ -54,9 +55,9 @@
             <ul class="dropdown-menu" aria-labelledby="Dropdown">
               <li>
                 <a class="dropdown-item" href="#"><span class="flag-icon flag-icon-gb"></span> English <i
-                    class="fa fa-check text-success ms-2"></i></a>
-              </li>
-              <li>
+                  class="fa fa-check text-success ms-2"></i></a>
+                </li>
+                <li>
                 <hr class="dropdown-divider" />
               </li>
               <li>
@@ -87,18 +88,59 @@
           </div>
 
           <div class="divider-border d-none d-lg-block"></div>
+          
+          <!-- <button class="btn btn-link d-flex align-items-center p-0 custom-design ms-3 d-none d-lg-block">
+            <i class="fa fa-user me-2"></i> Sign In
+          </button> -->
 
-          <button class="btn btn-link d-flex align-items-center p-0 custom-design ms-3 d-none d-lg-block">
+          
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-link d-flex align-items-center p-0 custom-design ms-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <i class="fa fa-user me-2"></i> Sign In
           </button>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Zubile</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="d-flex justify-content-center"><div class="divider-modal"></div></div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group mt-4">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control firm padding-email" id="email" placeholder="Name@example.com">
+              </div>
+              <div class="form-group mt-4">
+                  <label for="password" class="form-label">Password</label>
+                  <div class="input-group form-control firm d-flex align-items-center padding-password">
+                      <input type="password" class="form-control firm" id="password" placeholder="******************">
+                      <div class="pr-3 flex items-center text-sm ms-2">
+                          <i class="fas fa-eye text-blue-500 form-icon cursor-pointer" id="togglePassword"></i>
+                      </div>
+                  </div>
+              </div>
+                  <div class="d-grid gap-2 mt-5">
+                      <button type="button" class="btn btn-primary">Sign In</button>
+                  </div>
+                  <div class="mt-4 text-center">
+                      <p class="question-text">Don't Have an Account? <a href="#" class="ms-2 register-link">Register Now</a></p>
+                    </div>
+                  </form>
+                </div>
+              </div>
+  </div>
+</div>          
 
 
         </div>
       </div>
     </nav>
   </header>
-
+  
   <section>
     <div class="container-fluid headline">
       <div class="container d-flex p-2 position-relative align-items-center">
@@ -125,13 +167,13 @@
       </div>
     </div>
   </section>
-
+  
   <section class="mt-5">
     <div class="container">
       <div class="d-flex justify-content-end">
         <div class="dropdown">
           <button class="btn all-rating dropdown-toggle first-p" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-           <img class="all-rating-img" src="./assets/brand-reviews-page/tabler_filter.svg" alt=""> All Ratings
+            <img class="all-rating-img" src="./assets/brand-reviews-page/tabler_filter.svg" alt=""> All Ratings
           </button>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -491,9 +533,9 @@
   </section>
 
 
-<section>
-  <div class="container feedback d-flex flex-column align-items-center justify-content-center">
-    <div>
+  <section>
+    <div class="container feedback d-flex flex-column align-items-center justify-content-center">
+      <div>
       <div class="feedback-content d-flex flex-column align-items-center justify-content-center">
         <h2 class="first-h">Leave Us a Review</h2>
         <p class="sec-p mt-3">I found an amazing Nike discount and got 25% off. Super easy checkout!</p>
@@ -509,13 +551,13 @@
   </div>
   <p class="sec-p color-grey mt-3 ms-3">Select Your Rating</p>
 </div>    
-      <textarea class="review-textarea sec-p" placeholder="Write a Review"></textarea>
-      <div class="d-flex justify-content-end"><button class="submit-button sec-p">Submit Review</button></div>
-      </div>
-    </div>
-  </div>
+<textarea class="review-textarea sec-p" placeholder="Write a Review"></textarea>
+<div class="d-flex justify-content-end"><button class="submit-button sec-p">Submit Review</button></div>
+</div>
+</div>
+</div>
 </section>
-  
+
   <section class="subscribe-form spacer">
     <div class="container mt-5">
       <div class="subscribe-section">
@@ -523,15 +565,15 @@
         <p class="mb-5">Get weekly updates about our product on your email, no spam <br /> guaranteed we promise ✌</p>
         <form class='subscribe-form-field'>
           <input name='uri' type='hidden' value='Samsurysites' /><input name='loc' type='hidden' value='en_US' /><input
-            autocomplete='off' class='subscribe-css-email-field' name='email' placeholder='Enter Your Email ' /> <button
-            class="button btn-1 btn-style subscribed-btn">Subscribe Now</button>
+          autocomplete='off' class='subscribe-css-email-field' name='email' placeholder='Enter Your Email ' /> <button
+          class="button btn-1 btn-style subscribed-btn">Subscribe Now</button>
         </form>
       </div>
 
     </div>
   </section>
-
-
+  
+  
   <footer class="footer">
     <div class="container text-center text-md-start">
       <div class="row">
@@ -545,7 +587,7 @@
             brands.
           </p>
         </div>
-
+        
         <!-- Quick Links -->
         <div class="col-md-2">
           <h5>Quick Links</h5>
@@ -581,7 +623,7 @@
         </div>
       </div>
     </div>
-
+    
     <div class="footer-bottom mt-5">
       © 2025 Zubile. All Rights Reserved.
     </div>
@@ -590,6 +632,20 @@
   <script src="custom-js/home.js"></script>
   <!-- Bootstrap JS (Bundle includes Popper.js) -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <script>
+    const togglePassword = document.querySelector('#togglePassword');
+    const password = document.querySelector('#password');
+
+    togglePassword.addEventListener('click', function () {
+        // Toggle the type attribute
+        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+        password.setAttribute('type', type);
+        // Toggle the eye / eye slash icon
+        this.classList.toggle('fa-eye-slash');
+    });
+</script>
+
 </body>
 
 </html>

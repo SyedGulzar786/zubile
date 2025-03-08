@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Purple+Purse&display=swap');
+.btn-google, .btn-apple {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    color: #555;
+    text-decoration: none;
+    background: #FFFFFF;
+    font-family: Poppins;
+font-weight: 400;
+font-size: 17px;
+}
+.btn-google:hover, .btn-apple:hover {
+    background-color: #f0f0f0;
+}
+.dividing {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* margin: 20px 0px; */
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+}

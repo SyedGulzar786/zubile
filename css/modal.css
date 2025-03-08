@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Purple+Purse&display=swap');
+.modal-content {
+    background: #ECFCFC;
+    padding: 20px 20px 0px 20px ;
+}
+.modal-header {
+    border-bottom: none;
+}
+.modal-title {
+    font-family: Poppins;
+font-weight: 700;
+font-size: 42px;
+text-align: center;
+vertical-align: middle;
+color: #497AA5;
+}
+.form-icon{
+    color: #627D98 !important;
+}
+.btn-primary {
+border-radius: 14px;
+padding: 12px 0px;
+background: #497AA5;
+font-family: Poppins;
+font-weight: 600;
+font-size: 20px;
+border: none;
+}
+.btn-primary:hover {
+    background-color: #1e40af;
+    border-color: #1e40af;
+}
+.register-link {
+    font-family: Poppins;
+font-weight: 600;
+font-size: 15px;
+text-decoration: none;
+vertical-align: middle;
+color: #497AA5;
+}
+.question-text{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 15px;
+vertical-align: middle;
+color: #486581;
+}
+.form-control {
+    /* background-color: #F5F5F5; */
+    background: #EDF2F6;
+    border-radius: 9px;
+}
+.firm{
+    border: none;
+}
+.padding-email{
+    padding: 15px !important;
+}
+.padding-password{
+    padding: 10px !important;
+}
+.input-group-text {
+    background-color: transparent;
+    border: none;
+}
+.form-label {
+    font-weight: 600;
+    color: #000;
+    font-size: 15px;
+}
+.divider-modal{
+    width: 92%;
+    height: 1px;
+    background-color: #BFBFBF;
+
+}
