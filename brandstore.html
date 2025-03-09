@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zubile | deals-working</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icon.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="stylesheet" href="./css/modal.css">
-  <link rel="stylesheet" href="./css/dealsworking.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Zubile | stores</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="./css/blogmain.css">
+    <link rel="stylesheet" href="./css/brand-stores.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icon.min.css">
 </head>
 
 <body>
@@ -31,7 +31,7 @@
                             <a class="nav-link " aria-current="page" href="./home.html">Home</a>
                         </li>
                         <li class="nav-item ms-4">
-                            <a class="nav-link" aria-current="page" href="#">Deals</a>
+                            <a class="nav-link" aria-current="page" href="./dealsworking.html">Deals</a>
                         </li>
                         <li class="nav-item ms-4">
                             <a class="nav-link" aria-current="page" href="./brandstore.html">Stores</a>
@@ -139,51 +139,47 @@
     <section class="mt-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                    <div class="main-nike">
-                        <div class="filtering-header">
-                            <span>Filtered By:</span>
-                            <a href="#">Clear all</a>
+                <div class="col-md-3  ">
+                    <div class="main-nike ">
+
+                        <div class="headers">
+                            <h1>
+                                Nike
+                            </h1>
+                            <img alt="Nike logo with the text 'Just Do It'"
+                                src="./assets/brands-images/Nike logo.svg" />
                         </div>
-                        <div class="divided"></div>
-                        <div class="filtering-tags">
-                            <div class="filtering-tag">
-                                Amazon <i class="fas fa-times"></i>
-                            </div>
-                            <div class="filtering-tag">
-                                Electronics <i class="fas fa-times"></i>
-                            </div>
+                        <div class="bordering"></div>
+                        <div class="content">
+                            <p>
+                                Find Best Aosom IT Discount Codes, Coupon &amp; Promotions at Zubile.com. Our mission is
+                                to
+                                save money and time for our customers. Get the latest &amp; updated Deals And Promos for
+                                Aosom IT here. At the moment we have (15) deals and coupons through which you can save
+                                your
+                                money.
+                            </p>
                         </div>
-                        <div class="filtering-filter mt-2" onclick="toggleDropdown('discountDropdown')">
-                            <div class="filtering-filter-content">
-                                <img class="me-2" src="./assets/brands-images/ic_baseline-discount.svg" alt="">
-                                <span>Discount Type</span>
-                            </div>
-                            <img src="./assets/brands-images/gridicons_dropdown.svg" alt="">
+
+                        <div class="headers mt-4">
+                            <h1>
+                                Why Trust Us?
+                            </h1>
+                            <img alt="Nike logo with the text 'Just Do It'"
+                                src="./assets/brands-images/Zubile Logo 1-03-03 1.svg" />
                         </div>
-                        <div id="discountDropdown" class="filtering-dropdown-content">
-                            <p>Discount Type Options</p>
+                        <div class="bordering"></div>
+                        <div class="content">
+                            <p>
+                                Zubile.com dedicated merchandising team sources and verifies the finest Aosom IT
+                                coupons, promo codes, and deals, saving you time and money. Our deal hunters
+                                continuously research the market, providing up-to-date savings insights, top shopping
+                                destinations, and recommended products. We meticulously examine the fine print to ensure
+                                promo codes work seamlessly with your purchases, offering trustworthy coupons, promo
+                                codes, sales, and deals wherever you shop. Trust Zubile for vetted savings options.
+                            </p>
                         </div>
-                        <div class="filtering-filter mt-2" onclick="toggleDropdown('storeDropdown')">
-                            <div class="filtering-filter-content">
-                                <img class="me-2" src="./assets/brands-images/material-symbols_store-rounded.svg" alt="">
-                                <span>Store Name</span>
-                            </div>
-                            <img src="./assets/brands-images/gridicons_dropdown.svg" alt="">
-                        </div>
-                        <div id="storeDropdown" class="filtering-dropdown-content">
-                            <p>Store Name Options</p>
-                        </div>
-                        <div class="filtering-filter mt-2" onclick="toggleDropdown('categoryDropdown')">
-                            <div class="filtering-filter-content">
-                                <img class="me-2" src="./assets/brands-images/Group.svg" alt="">
-                                <span>Category</span>
-                            </div>
-                            <img src="./assets/brands-images/gridicons_dropdown.svg" alt="">
-                        </div>
-                        <div id="categoryDropdown" class="filtering-dropdown-content">
-                            <p>Category Options</p>
-                        </div>
+
                         <div class="headers mt-4">
                             <h1>
                                 Popular Stores
@@ -228,10 +224,7 @@
 
                 <div class="col-md-9 ">
 
-                    <div class="sort-place d-flex justify-content-between align-items-end mb-4">
-                        <div>
-                            <h2 class="top-deals-h">Top Deals</h2>
-                        </div>
+                    <div class="sort-place d-flex justify-content-end mb-5">
                         <div class="dropdown">
                             <button class="btn all-rating dropdown-toggle first-p" type="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -366,91 +359,71 @@
 
                     </div>
 
+                    <div class="coupen border rounded-2 p-3 d-flex mt-4">
+                        <div class="image-sec">
+                            <img src="./assets/brands-images/Group 19971.svg" alt="">
+                            <div class="discount" style="text-align: center; color: white; ">
+                                <div style="font-size: 24px; font-weight: bold;">Upto</div>
+                                <div style="font-size: 36px; font-weight: bold;">30%</div>
+                                <div style="font-size: 24px; font-weight: bold;">Off</div>
+                            </div>
+                        </div>
+
+                        <div class="divider">
+                            <img src="./assets/brands-images/Line 4.svg" alt="">
+                        </div>
+
+                        <div class="image-sec-content">
+                            <div class="deal-card-header">
+                                <div class="badge yellow mb-3">Deals</div>
+                                <div class="deal-card-title">Save 30% on All Orders Over $100!"</div>
+                            </div>
+                            <div class="deal-card-description">
+                                Use this promo code at checkout to save 25% on your total purchase at Nike.
+                            </div>
+                            <div class="expiry">Expiry <span class="expire">| Expiring Soon</span></div>
+                            <div class="expire-border mt-2"></div>
+
+                            <div class="expire-btn-sec d-flex justify-content-between mt-2">
+                                <div class="used">70 Used</div>
+                                <button class="ex-btn">GET DEAL</button>
+                            </div>
+                        </div>
+
+                    </div>
 
 
                     <div class="d-flex justify-content-center mt-5">
-                        <button class="load-more third-p">Load More</button>
+                        <a href="./brandstorereviews.html"><button class="load-more third-p">Load More</button></a>
                       </div>
 
-                    
-                    <section class="mt-5 mb-0 slider_cards spacer">
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-12">
-                              <div class="content-cards slider-head d-flex justify-content-center">
-                                <h2>Deals by Category</h2>
-                              </div>
-                            </div>
-                          </div>
-                  
-                        <div class="row">
-                       
-                  
-                  
-                            <div class="logo-slider">
-                              <div class="logos-slide">
-                                
-                                        <div class="slide">
-                                            <img src="/assets/images/carousel1.png" alt="Image 1">
-                                            <h2>Home & Living</h2>
-                                        </div>
-                                      <div class="slide">
-                                            <img src="/assets/images/carousel2.png" alt="Image 2">
-                                            <h2>Fashion & Apparel </h2>
-                                        </div>
-                                      <div class="slide">
-                                            <img src="/assets/images/carousel3.png" alt="Image 1">
-                                            <h2>Electronics & Gadgets</h2>
-                                        </div>
-                                      <div class="slide">
-                                            <img src="/assets/images/carousel4.png" alt="Image 2">
-                                            <h2>Travel & Hotels</h2>
-                                        </div>
-                                      <div class="slide">
-                                            <img src="/assets/images/carousel5.png" alt="Image 1">
-                                            <h2>Food & Restaurants</h2>
-                                        </div>
-                                      <div class="slide">
-                                            <img src="/assets/images/carousel6.png" alt="Image 2">
-                                            <h2>Health & Beauty</h2>
-                                        </div>
-                                
-                              </div>
-                            </div>
-                        </div>
-                        
-                        </div>
-                      </section>
 
-                      <section class="carousel-slider mt-5 spacer">
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-12">
-                              <div class="content-cards caoursel-head d-flex justify-content-center">
-                                <h2>Top Stores Offering Discounts</h2>
-                              </div>
-                            </div>
-                          </div>
-                  
-                        <div class="row">
-                          <carousel>
-                            <img class="logo" src="/assets/images/slider-1.png">
+
+
+
+                    <div class="main-cros mt-5">
+                        <div class="content-cards caoursel-head d-flex justify-content-center">
+                            <h2>Similar Stores & Related Brands</h2>
+                        </div>
+    
+                        <div class="row mb-5">
+                            <carousel>
+                                <img class="logo" src="/assets/images/slider-1.png">
                                 <img class="logo" src="/assets/images/slider-2.png" />
                                 <img class="logo" src="/assets/images/slider-3.png" />
                                 <img class="logo" src="/assets/images/slider-4.png" />
-                            <!--<img class="logo" src="">-->
-                          
+                                <!--<img class="logo" src="">-->
+    
                                 <!--DOUBLE-->
-                            <img class="logo" src="/assets/images/slider-5.png"> 
+                                <img class="logo" src="/assets/images/slider-5.png">
                                 <img class="logo" src="/assets/images/slider-2.png" />
                                 <img class="logo" src="/assets/images/slider-3.png" />
                                 <img class="logo" src="/assets/images/slider-4.png" />
                             </carousel>
                         </div>
-                        
-                        </div>
-                      </section>
-
+    
+                    </div>
+                    
                 </div>
             </div>
 
@@ -465,7 +438,7 @@
     </section>
 
     <section class="subscribe-form spacer">
-        <div class="container">
+        <div class="container mt-5">
             <div class="subscribe-section">
                 <h2 class="mb-3">Subscribe and Get 25% Off!</h2>
                 <p class="mb-5">Get weekly updates about our product on your email, no spam <br /> guaranteed we promise
@@ -541,16 +514,6 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="./custom-js/home.js"></script>
-<script>
-    function toggleDropdown(id) {
-        var dropdown = document.getElementById(id);
-        if (dropdown.style.display === "none" || dropdown.style.display === "") {
-            dropdown.style.display = "block";
-        } else {
-            dropdown.style.display = "none";
-        }
-    }
-</script>
-<
+
 
 </html>
